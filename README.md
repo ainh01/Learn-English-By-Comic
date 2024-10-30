@@ -6,7 +6,7 @@ Lisence:...
 use this:
 
 
-pip install pandas aiohttp beautifulsoup4 Pillow google-generativeai
+pip install pandas aiohttp beautifulsoup4 Pillow google-generativeai lxml
 
 
 
