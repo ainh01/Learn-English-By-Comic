@@ -2,7 +2,7 @@ import os
 import google.generativeai as genai
 from typing import Optional
 from google.generativeai.types import HarmCategory, HarmBlockThreshold
-
+ 
 
 os.environ['GOOGLE_API_KEY'] = 'AIzaSyBj6ykG4KrQq2bWH53F8OJY_zI3lm4yx9A'
 genai.configure(api_key=os.environ['GOOGLE_API_KEY'])
