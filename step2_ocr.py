@@ -14,16 +14,16 @@ from math import ceil
 TIMETOWAIT = 10
 
 API_KEYS = [
-    'AIzaSyBj6ykG4KrQq2bWH53F8OJY_zI3lm4yx9A',
-    'AIzaSyCgDGy6TlyrlfXSnhqPmdDHiDxUKl7SA3E',
-    'AIzaSyDFFiYmDWO3LrOpOhJ_2My76loloSi3NqE',
-    'AIzaSyDkSdY167zSuy9Gmh0pzlT6sdBGbUnNfyo',
-    'AIzaSyCR6p4UMRPZOMZUGM4zMHux-4RssJx8qiI',
-    'AIzaSyBZp4dOuhazIUij4HiQTPQUvoIFvpiQZN4',
-    'AIzaSyCCmKnCi3Iu385hIztzELbuKMvp9ai7DEU',
-    'AIzaSyCg-qVd8rvnGVxC3-TjihWdulLxzNGIWew',
-    'AIzaSyA_Tq1llFrT7VnmoIx0RsvdJK4Px_sHIP8',
-    'AIzaSyDd17c9akAaveCznSCuL1ZDjJ1MsSK-XhQ'
+	'AIzaSyBj6ykG4KrQq2bWH53F8OJY_zI3lm4yx9A',
+	'AIzaSyBcFJ9NYxW_QlXRNvhGasrLf4BONQUL5-0',
+	'AIzaSyArJ2-XTI8kcV_5C_6wPq_j7ILmhA_sNhw',
+	'AIzaSyBDo9pozi-OfKXBDDcmfMi4YnopuJNbbSc',
+	'AIzaSyADGpLGiHnxjGWgUHPf-3O4GVUvTiiEEsw',
+	'AIzaSyDOgLddotsVp5A8_Ba5sbUfAGNAp4t3AEc',
+	'AIzaSyCp6RSdu3S2-gFxvhNyRV5HhferUCGaPec',
+	'AIzaSyCU-5TsLClGCd-aUbEBXYCe-RXl1PzHxWc',
+	'AIzaSyC9YTzLepkJTqqnoJQUkgb78wS9_IevVCQ',
+	'AIzaSyC0h9gimW6fz2nOBUB9MjxGciEF_K1fQY8',
 ]
 
 
