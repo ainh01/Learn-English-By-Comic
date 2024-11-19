@@ -11,7 +11,7 @@ from math import ceil
 
  
 
-TIMETOWAIT = 10
+TIMETOWAIT = 15
 
 API_KEYS = [
 	'AIzaSyBj6ykG4KrQq2bWH53F8OJY_zI3lm4yx9A',
