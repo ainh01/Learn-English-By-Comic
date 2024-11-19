@@ -119,7 +119,7 @@ class HandwritingOCR:
                 
                 response = model.generate_content(
                     [uploaded_data['file'], 
-                     "Please extract and transcribe any text in this image, including handwritten text."],
+                     "Your task is to EXTRACT any TEXT in this image WITH the following 2 RULES: 1. Output FINAL extracted text only DO NOT talk nonsense. 2. Only newline if it is needed."],
                     safety_settings=SAFETY_SETTINGS,
                 )
                 

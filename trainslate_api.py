@@ -47,10 +47,10 @@ def translate_with_context(PATH_IMAGE: str, PATH_TXT: str, TO_TRANSLATE: str) ->
             TXT_VALUE = file.read().strip()
         
 
-        model = genai.GenerativeModel("gemini-1.5-flash", safety_settings=SAFETY_SETTINGS)
+        model = genai.GenerativeModel("gemini-1.5-pro", safety_settings=SAFETY_SETTINGS)
         
 
-        prompt = f"I am Vietnamese so you REPONSE TO ME USING VIETNAMESE. Your task is to translate the word \"{TO_TRANSLATE}\" into Vietnamese which is found in [{TXT_VALUE}] and have the background in the image so that user can understand the word in Vietnamese. And then you reason why \"{TO_TRANSLATE}\" mean that but not other meaning."
+        prompt = f"Rule: 1.STRICTLY REPONSE to me using ONLY VIETNAMESE. Your task is to translate the word \"{TO_TRANSLATE}\" into Vietnamese which is found in [{TXT_VALUE}] and have the background in the image so that user can understand the word in Vietnamese. And then you reason why \"{TO_TRANSLATE}\" mean that but not other meaning."
         
 
         response = model.generate_content([image_file, "\n\n", prompt])
@@ -64,7 +64,7 @@ def translate_with_context(PATH_IMAGE: str, PATH_TXT: str, TO_TRANSLATE: str) ->
         print(f"An error occurred: {str(e)}")
         return None
 
-print(translate_with_context(r"C:\Users\binh\Desktop\ainhscrape\scraped_images\comic_1150.png",
-                           r"C:\Users\binh\Desktop\ainhscrape\ocr_results\comic_1150.txt",
+print(translate_with_context(r"C:\Users\binh\Desktop\3. OCR-ed\Learn-English-By-Comic\scraped_images\comic_1150.png",
+                           r"C:\Users\binh\Desktop\3. OCR-ed\Learn-English-By-Comic\ocr_results\comic_1150.txt",
                            "STORAGE BUSINESS"))
 
